@@ -1,0 +1,79 @@
+/* CountryInfoLogic.css */
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #adb2ac;
+}
+
+.container {
+    width: 100%;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #f8f5f5;
+    box-shadow: 6px 10px 17px -8px rgba(0,0,0,0.57);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    width: auto;
+}
+
+.search {
+    display: grid;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #ced4da;
+    margin: 15px 50px 5px 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #1d9bf0;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+#search-btn:hover{
+    background-color: #1879ba;
+}
+
+#result img{
+    display: block;
+    width: 298px;
+    margin-top: 10px;
+    height: 200px;
+    border: 1px solid #2572c0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataRow{
+    text-align: left;
+}
+
+.dataRow h4{
+    margin: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+.dataRow span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    max-width: 300px;
+}
